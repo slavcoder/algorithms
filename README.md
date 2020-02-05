@@ -4,9 +4,9 @@
 
 ### codewars
 * #### finished
-    - [range-of-integers-in-an-unsorted-string](javascript/codility/range-of-integers-in-an-unsorted-string/scripts.js)
+    - [range-of-integers-in-an-unsorted-string](javascript/codewars/range-of-integers-in-an-unsorted-string/scripts.js)
 * #### in progress
-    - [spiral-column-addition](javascript/codility/spiral-column-addition/scripts.js)
+    - [spiral-column-addition](javascript/codewars/spiral-column-addition/scripts.js)
 
 ### codility
 * #### finished
