@@ -12,7 +12,7 @@
 // const test = "[[[[[[[[[[[[[[[[[[[[[[[[[[((((((({{{{{{{{{{{{}}}}}}}}}}}})))))))]]]]]]]]]]]]]]]]]]]]]]]]]])".repeat(1000);
 
 // const test = "(".repeat(99999) + ")".repeat(100000);
-const test =  '([)()]';
+const test =  '([)()])';
 // const test =  '(){}[]';
 // console.log('test: ' +test);
 // const test =  '';
