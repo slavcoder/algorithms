@@ -1,4 +1,4 @@
-// not finished
+// finished
 // https://www.codewars.com/kata/5cbf57a636240b0025b09396
 
 const arr = [
@@ -17,11 +17,9 @@ function exit_from_maze(board) {
     const laser = {
         position: [0, 0],
         distance: 0,
-        direction: ''
     }
 
-    let run = true
-    const directions = ['top', 'right', 'bottom', 'left']
+    const nextStep = []
     const boardLength = board.length
 
     for(let i = 0; i< boardLength; i++){
@@ -30,10 +28,34 @@ function exit_from_maze(board) {
         for(let j = 0; j < rowLength; j++){
             if(board[i][j] === '*') {
                 setPosition(i,j)
-                setDirection('*')
+                setNextStep(i,j)
                 break;
             }
         }
+    }
+
+    while(true) {
+        laser.position[0] += nextStep[0]
+        laser.position[1] += nextStep[1]
+        
+        const boardChar = board[laser.position[0]][laser.position[1]]
+        if(boardChar === '#') break
+        
+        if(boardChar === '/' || boardChar === '\\') {
+            const x = nextStep[0]
+            const y = nextStep[1]
+            const changeNumber = boardChar === '/' ? -1 : 1
+            
+            nextStep[0] = y * changeNumber
+            nextStep[1] = x * changeNumber
+        }
+
+        laser.distance++
+    }
+
+    return {
+        position: [laser.position[1], laser.position[0]],
+        distance: laser.distance
     }
 
     function setPosition(x,y) {
@@ -41,43 +63,19 @@ function exit_from_maze(board) {
         laser.position[1] = y
     }
 
-    function setDirection(sign) {
-        if(sign === '*') {
-            if(laser.position[0] === 0) {
-                laser.direction = 'bottom'
-            }
-            else if(laser.position[0] === boardLength - 1) {
-                laser.direction = 'top'
-            }
-            else if(laser.position[1] === 0) {
-                laser.direction = 'right'
-            }
-            else {
-                laser.direction = 'left'
-            }
+    function setNextStep(x,y) {
+        let direction = x === 0 ? 'bottom' : 
+                        x === boardLength - 1 ? 'top' : 
+                        y === 0 ? 'right' : 'left'
+
+        const steps = {
+            top: [-1, 0],
+            bottom: [1, 0],
+            left: [0, -1],
+            right: [0, 1],
         }
-        // else if(sign === '/') {
-        //     laser.direction = laser.direction === 'left' ? 'top' :
-        //                       laser.direction === 'right' ? 'bottom' :
-        //                       laser.direction === 'bottom' ? 'bottom' :
-        //                       laser.direction === 'right' ? 'bottom' :
-        // }
-        // else {
 
-        // }
-    }
-
-    while(run) {
-        console.log('aa')
-        // if(direction && board.position[0])
-
-        run = false
-    }
-
-    console.log(laser.direction)
-
-    return {
-        position: laser.position,
-        distance: laser.distance
+        nextStep[0] = steps[direction][0]
+        nextStep[1] = steps[direction][1]
     }
 }
