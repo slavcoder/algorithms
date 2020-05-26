@@ -4,11 +4,12 @@
 
 ### codewars
 * #### finished
+    - [bouncing-beams](javascript/codewars/bouncing-beams/scripts.js)
     - [range-of-integers-in-an-unsorted-string](javascript/codewars/range-of-integers-in-an-unsorted-string/scripts.js)
     - [play-with-two-strings](javascript/codewars/play-with-two-strings/scripts.js)
-    - [bouncing-beams](javascript/codewars/bouncing-beams/scripts.js)
 * #### in progress
     - [spiral-column-addition](javascript/codewars/spiral-column-addition/scripts.js)
+    - [how-many-palindromes](javascript/codewars/how-many-palindromes/scripts.js)
 
 ### codility
 * #### finished
