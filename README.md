@@ -1,9 +1,10 @@
-# Algorithms
+# Algorithms (newer from top, older from bottom)
 
 ## javascript
 
 ### codewars
 * #### finished
+    - [human-readable-duration-format](javascript/codewars/human-readable-duration-format/script.js)
     - [bouncing-beams](javascript/codewars/bouncing-beams/scripts.js)
     - [range-of-integers-in-an-unsorted-string](javascript/codewars/range-of-integers-in-an-unsorted-string/scripts.js)
     - [play-with-two-strings](javascript/codewars/play-with-two-strings/scripts.js)
