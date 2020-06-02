@@ -9,11 +9,15 @@
     - [range-of-integers-in-an-unsorted-string](javascript/codewars/range-of-integers-in-an-unsorted-string/scripts.js)
     - [play-with-two-strings](javascript/codewars/play-with-two-strings/scripts.js)
 * #### in progress
+    - [screen-locking-patterns](javascript/codewars/screen-locking-patterns/script.js)
+    - [last-digit-of-a-huge-number](javascript/codewars/last-digit-of-a-huge-number/script.js)
     - [spiral-column-addition](javascript/codewars/spiral-column-addition/scripts.js)
     - [how-many-palindromes](javascript/codewars/how-many-palindromes/scripts.js)
 
 ### codility
 * #### finished
+    - [max-product-of-three](javascript/codility/max-product-of-three/script.js)
+    - [distinct](javascript/codility/distinct/script.js)
     - [a-binary-gap](javascript/codility/a-binary-gap/scripts.js)
     - [brackets-check](javascript/codility/brackets-check/scripts.js)
     - [cyclic-rotation](javascript/codility/cyclic-rotation/scripts.js)
@@ -27,4 +31,5 @@
     - [perm-check](javascript/codility/perm-check/scripts.js)
     - [perm-missing-elem](javascript/codility/perm-missing-elem/scripts.js)
 * #### in progress
+    - [number-of-disc-inter-sections](javascript/codility/number-of-disc-inter-sections/script.js)
     - [chocolates-by-number](javascript/codility/chocolates-by-number/scripts.js)
