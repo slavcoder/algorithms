@@ -16,6 +16,7 @@
 
 ### codility
 * #### finished
+    - [tape-equilibrium](javascript/codility/tape-equilibrium/script.js)
     - [max-product-of-three](javascript/codility/max-product-of-three/script.js)
     - [distinct](javascript/codility/distinct/script.js)
     - [a-binary-gap](javascript/codility/a-binary-gap/scripts.js)
@@ -31,6 +32,5 @@
     - [perm-check](javascript/codility/perm-check/scripts.js)
     - [perm-missing-elem](javascript/codility/perm-missing-elem/scripts.js)
 * #### in progress
-    - [tape-equilibrium](javascript/codility/tape-equilibrium/script.js)
     - [number-of-disc-inter-sections](javascript/codility/number-of-disc-inter-sections/script.js)
     - [chocolates-by-number](javascript/codility/chocolates-by-number/scripts.js)
