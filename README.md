@@ -16,6 +16,7 @@
 
 ### codility
 * #### finished
+    - [frog-river-one](javascript/codility/frog-river-one/script.js)
     - [tape-equilibrium](javascript/codility/tape-equilibrium/script.js)
     - [max-product-of-three](javascript/codility/max-product-of-three/script.js)
     - [distinct](javascript/codility/distinct/script.js)
@@ -32,5 +33,6 @@
     - [perm-check](javascript/codility/perm-check/scripts.js)
     - [perm-missing-elem](javascript/codility/perm-missing-elem/scripts.js)
 * #### in progress
+    - [max-counters](javascript/codility/max-counters/script.js)
     - [number-of-disc-inter-sections](javascript/codility/number-of-disc-inter-sections/script.js)
     - [chocolates-by-number](javascript/codility/chocolates-by-number/scripts.js)
