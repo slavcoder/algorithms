@@ -33,6 +33,6 @@
     - [perm-check](javascript/codility/perm-check/scripts.js)
     - [perm-missing-elem](javascript/codility/perm-missing-elem/scripts.js)
 * #### in progress
-    - [max-counters](javascript/codility/max-counters/script.js)
+    - [max-counters](javascript/codility/max-counters/script.js) -> correct but too slow
     - [number-of-disc-inter-sections](javascript/codility/number-of-disc-inter-sections/script.js)
     - [chocolates-by-number](javascript/codility/chocolates-by-number/scripts.js)

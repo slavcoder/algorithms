@@ -1,4 +1,3 @@
-// finished
 // https://www.codewars.com/kata/585894545a8a07255e0002f1
 
 const test0 = ['A', 0]; // 0
