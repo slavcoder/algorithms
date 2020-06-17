@@ -1,6 +1,6 @@
 # JavaScript Algorithms 
 
-Those are my attempts to solve some algorithms in JavaScript   
+Those are my attempts to code some algorithms in JavaScript   
 Newer from top, older from bottom   
 Those solutions may not be perfect or even good - I warn   
 
@@ -39,6 +39,22 @@ Those solutions may not be perfect or even good - I warn
     - [number-of-disc-inter-sections](codility/number-of-disc-inter-sections/)
     - [chocolates-by-number](codility/chocolates-by-number/)
 
-* ## custom
-    - [Test](Test/) - custom class for simple tests
-    - [example](custom/example/) - **starter** for simple algorithms using my custom `Test` class
+## custom
+   
+
+# Testing
+
+Each **finished** algorithm have it's own folder which contains at least 3 files: 
+- `solution.js`
+- `solution.test.js` 
+- `README.md`
+
+To test solution with [Jest](https://jestjs.io) use command:
+```
+npm test <path-to-folder>
+```
+
+For example to run tests for `human-readable-duration-format` algorithm use the following command:
+```
+npm test /codewars/human-readable-duration-format
+```

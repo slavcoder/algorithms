@@ -1,0 +1,25 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "custom JavaScript algorithms",
+  "main": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slavcoder/algorithms.git"
+  },
+  "keywords": [
+    "algorithms"
+  ],
+  "author": "slavcoder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slavcoder/algorithms/issues"
+  },
+  "homepage": "https://github.com/slavcoder/algorithms#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
