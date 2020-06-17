@@ -1,9 +1,8 @@
 // custom class for simple tests
 
 class Test {
-    constructor(func) {
-        this.func = func
-        this.cases = []
+    constructor() {
+
     }
 
     run() {
@@ -17,19 +16,19 @@ class Test {
             console.log(`\nTEST ${i}:`)
             console.log(`--------`)
             console.time('time')
-            const res = this.func(...el.case)
+            const res = el.solution()
             console.timeEnd('time')
 
             if(Array.isArray(res)) {
-                passed = this.arraysEqual(res, el.result)
+                passed = this.arraysEqual(res, el.equals)
                 if(!passed) {
-                    console.log('expected: ', el.result)
+                    console.log('expected: ', el.equals)
                     console.log('got: ', res)
                 }
             }
             else {
-                passed = res === el.result
-                console.assert(passed, `expected: ${el.result}, got: ${res}`)
+                passed = res === el.equals
+                console.assert(passed, `expected: ${el.equals}, got: ${res}`)
             }
 
             if(passed) passedCount++

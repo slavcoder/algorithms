@@ -1,23 +1,4 @@
-// Human readable duration format
-// https://www.codewars.com/kata/52742f58faf5485cae000b9a
-
-const test0 = 0
-const test1 = 161
-const test2 = 120
-const test3 = 3600
-const test4 = 3662
-const test5 = 362313541
-
-console.time('test')
-    // console.log(formatDuration(test0))
-    // console.log(formatDuration(test1))
-    // console.log(formatDuration(test2))
-    // console.log(formatDuration(test2))
-    // console.log(formatDuration(test4))
-    console.log(formatDuration(test5))
-console.timeEnd('test')
-
-function formatDuration(seconds) {
+function solution(seconds) {
     if(!seconds) return 'now'
     const resArr = []
     
@@ -43,3 +24,5 @@ function formatDuration(seconds) {
     
     return resArr.join('')
 }
+
+module.exports = solution
