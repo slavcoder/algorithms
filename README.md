@@ -2,12 +2,12 @@
 
 Those are my attempts to code some algorithms in JavaScript   
 Newer from top, older from bottom   
-Those solutions may not be perfect or even good - I warn   
+Those solutions may not be perfect or even good - **I warn**   
 
 ## codewars
 * ### finished
     - [human-readable-duration-format](codewars/human-readable-duration-format/)
-    - [bouncing-beams](codewars/bouncing-beams/) - todo: correct tests
+    - [bouncing-beams](codewars/bouncing-beams/)
     - [range-of-integers-in-an-unsorted-string](codewars/range-of-integers-in-an-unsorted-string/)
     - [play-with-two-strings](codewars/play-with-two-strings/)
 * ### in progress
@@ -40,7 +40,8 @@ Those solutions may not be perfect or even good - I warn
     - [chocolates-by-numbers](codility/chocolates-by-numbers/)
 
 ## custom
-   
+* ### finished
+* ### in progress
 
 # Testing
 

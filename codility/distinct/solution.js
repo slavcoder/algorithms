@@ -1,11 +1,5 @@
 function solution(arr) {
-    const distinct = new Set()
-    
-    arr.forEach(el => {
-        distinct.add(el)
-    })
-
-    return distinct.size
+    return new Set(arr).size
 }
 
 module.exports = solution
