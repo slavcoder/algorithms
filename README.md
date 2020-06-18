@@ -23,7 +23,7 @@ Those solutions may not be perfect or even good - I warn
     - [max-product-of-three](codility/max-product-of-three/)
     - [distinct](codility/distinct/)
     - [a-binary-gap](codility/a-binary-gap/)
-    - [brackets-check](codility/brackets-check/)
+    - [brackets](codility/brackets/)
     - [cyclic-rotation](codility/cyclic-rotation/)
     - [fish](codility/fish/)
     - [frog-jump](codility/frog-jump/)
@@ -37,7 +37,7 @@ Those solutions may not be perfect or even good - I warn
 * ### in progress
     - [max-counters](codility/max-counters/) -> correct but too slow
     - [number-of-disc-inter-sections](codility/number-of-disc-inter-sections/)
-    - [chocolates-by-number](codility/chocolates-by-number/)
+    - [chocolates-by-numbers](codility/chocolates-by-numbers/)
 
 ## custom
    
