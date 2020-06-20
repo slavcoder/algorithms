@@ -1,10 +1,3 @@
-// finished - 100% score
-
-const test = [4,2,2,5,1,5,8,2,1,1];
-
-
-console.log(solution(test));
-
 function solution(A) {
     const arr = A
     const maxAvg = 10000
@@ -36,3 +29,5 @@ function solution(A) {
 
     return resIndex
 }
+
+module.exports = solution

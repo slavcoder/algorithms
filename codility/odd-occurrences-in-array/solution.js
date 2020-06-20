@@ -1,10 +1,3 @@
-// console.log(solution(10000000));
-console.log(solution([9,3,9,3,9,7,9,7,1]));
-console.log(solution([9,3,9,3,9,7,9]));
-console.log(solution([2,1,1,1,1,1,1]));
-console.log(solution([2,2,5]));
-// console.log(solution(121));
-
 function solution(A) {
     const arr = A.sort()
     const arrLength = arr.length
@@ -27,3 +20,5 @@ function solution(A) {
     }
     return current
 }
+
+module.exports = solution

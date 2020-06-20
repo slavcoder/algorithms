@@ -1,7 +1,3 @@
-// finished
-const test = 'test 5 a0A pass0077 ?xy1'
-console.log(solution(test))
-
 function solution(S) {
     let res = -1;
     const arr = S.split(' ')
@@ -40,3 +36,5 @@ function solution(S) {
 
     return res
 }
+
+module.exports = solution

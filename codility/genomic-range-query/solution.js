@@ -1,13 +1,3 @@
-// finished
-// correct res = [2,4,1]
-
-// CAGCCTA
-// [2,5,0]
-// [4,5,6]
-
-console.log(solution('CAGCCTA',[2,5,0],[4,5,6]));
-
-
 function solution(s,p,q) {
     sValues = s.replace(/A/g, '1')
                .replace(/C/g, '2')
@@ -30,3 +20,5 @@ function solution(s,p,q) {
 
     return res
 }
+
+module.exports = solution

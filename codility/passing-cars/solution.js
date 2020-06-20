@@ -1,10 +1,3 @@
-// done - 100%
-
-console.log(solution([0,1]));
-console.log(solution([0,1,0,1,1,1]));
-console.log(solution([0,0,0,1,0,1,1]));
-console.log(solution([0,1,0,1,1,1]));
-
 function solution(arr) {
     const arrLength = arr.length
     let res = 0
@@ -48,3 +41,5 @@ function solution(arr) {
 
     return res
 }
+
+module.exports = solution

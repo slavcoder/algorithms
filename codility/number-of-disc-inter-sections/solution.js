@@ -1,11 +1,3 @@
-// correct but too slow
-// https://app.codility.com/programmers/lessons/6-sorting/number_of_disc_intersections/
-
-const test1 = [1,5,2,1,4,0] // 11
-
-console.log(solution(test1))
-// console.log(solution(test2))
-
 function solution(arr) {
     const discs = []
     let res = 0
@@ -24,3 +16,5 @@ function solution(arr) {
 
     return res
 }
+
+module.exports = solution

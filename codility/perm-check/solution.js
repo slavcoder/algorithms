@@ -1,11 +1,3 @@
-// done - 100%
-
-// console.log(solution([1,2,3,4,6]));
-// console.log(solution([1,2,3,4,5]));
-// console.log(solution([4,1,3]));
-console.log(solution([0,1]));
-console.log(solution([1,2,3,5,6,4]));
-
 function solution(arr) {
     let res = 0
     arr.sort((a,b)=>a-b)
@@ -23,3 +15,5 @@ function solution(arr) {
 
     return res
 }
+
+module.exports = solution

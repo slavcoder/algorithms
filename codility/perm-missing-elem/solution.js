@@ -1,6 +1,3 @@
-// finished
-console.log(solution([2,3,4,5]));
-
 function solution(arr) {
     arr.sort((a,b)=>a-b)
     const arrLength = arr.length
@@ -19,3 +16,5 @@ function solution(arr) {
 
     return res
 }
+
+module.exports = solution
