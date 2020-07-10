@@ -7,8 +7,8 @@
 
 1. Filter values lower than 1
 2. Remove duplicates using `Set` and sort in new `Array`
-3. Iterate through this array, if the current index number increased by 1 is different than a number on at this index, return index number increased by 1.
-4. Return one at the end (in case the array is empty)
+3. Iterate through this array, if the current index number increased by 1 is different than a number at the index, return index number increased by 1.
+4. Return 1 at the end (in case the array is empty)
 
 ## Test
 
