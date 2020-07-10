@@ -18,6 +18,7 @@ Those solutions may not be perfect or even good - **I warn**
 
 ## codility
 * ### finished
+    - [missing-integer](codility/missing-integer/)
     - [frog-river-one](codility/frog-river-one/)
     - [tape-equilibrium](codility/tape-equilibrium/)
     - [max-product-of-three](codility/max-product-of-three/)
