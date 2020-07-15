@@ -18,6 +18,7 @@ Those solutions may not be perfect or even good - **I warn**
 
 ## codility
 * ### finished
+    - [triangle](codility/triangle/)
     - [count-div](codility/count-div/)
     - [missing-integer](codility/missing-integer/)
     - [frog-river-one](codility/frog-river-one/)
