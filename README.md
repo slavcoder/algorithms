@@ -18,6 +18,7 @@ Those solutions may not be perfect or even good - **I warn**
 
 ## codility
 * ### finished
+    - [dominator](codility/dominator/)
     - [stone-wall](codility/stone-wall/)
     - [nesting](codility/nesting/)
     - [triangle](codility/triangle/)
