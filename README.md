@@ -35,12 +35,13 @@ Those solutions may not be perfect or even good - **I warn**
     - [frog-jump](codility/frog-jump/)
     - [genomic-range-query](codility/genomic-range-query/)
     - [longest-password](codility/longest-password/)
-    - [mic-avg-two-slice](codility/mic-avg-two-slice/)
+    - [min-avg-two-slice](codility/min-avg-two-slice/)
     - [odd-occurrences-in-array](codility/odd-occurrences-in-array/)
     - [passing-cars](codility/passing-cars/)
     - [perm-check](codility/perm-check/)
     - [perm-missing-elem](codility/perm-missing-elem/)
 * ### in progress
+    - [equi-leader](codility/equi-leader/)
     - [max-counters](codility/max-counters/) -> correct but too slow
     - [number-of-disc-inter-sections](codility/number-of-disc-inter-sections/)
     - [chocolates-by-numbers](codility/chocolates-by-numbers/)
