@@ -41,7 +41,7 @@ Those solutions may not be perfect or even good - **I warn**
     - [perm-check](codility/perm-check/)
     - [perm-missing-elem](codility/perm-missing-elem/)
 * ### in progress
-    - [equi-leader](codility/equi-leader/)
+    - [equi-leader](codility/equi-leader/) -> correct but too slow (88%)
     - [max-counters](codility/max-counters/) -> correct but too slow
     - [number-of-disc-inter-sections](codility/number-of-disc-inter-sections/)
     - [chocolates-by-numbers](codility/chocolates-by-numbers/)
