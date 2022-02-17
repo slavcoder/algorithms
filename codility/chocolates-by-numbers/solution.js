@@ -1,5 +1,5 @@
-function solution(n,m) {
-    
+function solution(n, m) {
+
 }
 
 module.exports = solution

@@ -1,26 +1,26 @@
 function solution(arr) {
-    let sum = arr.reduce((sum, item) => sum + item, 0)
-    sum -= arr.shift()
-    sum -= arr.pop()
-    
-    let arrLength = arr.length
-    let res = 0
+  let sum = arr.reduce((sum, item) => sum + item, 0)
+  sum -= arr.shift()
+  sum -= arr.pop()
 
-    while(arrLength > 3) {
-        let min = Math.min(...arr)
-        res = Math.max(res, sum-min)
+  let arrLength = arr.length
+  let res = 0
 
-        if(arr[0] <= arr[arrLength-1]) {
-            sum -= arr.shift()
-        }
-        else {
-            sum -= arr.pop()
-        }
+  while (arrLength > 3) {
+    let min = Math.min(...arr)
+    res = Math.max(res, sum - min)
 
-        arrLength--
+    if (arr[0] <= arr[arrLength - 1]) {
+      sum -= arr.shift()
+    }
+    else {
+      sum -= arr.pop()
     }
 
-    return res
+    arrLength--
+  }
+
+  return res
 }
 
 module.exports = solution
