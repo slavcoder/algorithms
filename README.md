@@ -6,6 +6,7 @@ Those solutions may not be perfect or even good - **I warn**
 
 ## codewars
 * ### finished
+    - [sequences-of-series](codewars/sequences-of-series/)
     - [human-readable-duration-format](codewars/human-readable-duration-format/)
     - [bouncing-beams](codewars/bouncing-beams/)
     - [range-of-integers-in-an-unsorted-string](codewars/range-of-integers-in-an-unsorted-string/)
